@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+coverage/
+
+# Local project notes
+/IMPLEMENTED_WORK.md
+/JOB_FIT.md
+/PROJECT_RECAP.md
+/STAGE_1_NOTES.md
+
+# Local uploads and runtime data
+server/private_uploads/
+uploads/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor and operating-system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
